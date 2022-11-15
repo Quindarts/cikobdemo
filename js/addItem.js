@@ -20,7 +20,7 @@ header.innerHTML = `
         <ul class="navbar-nav me-auto m-0">
 
         <li class="nav-item active px-3">
-            <a class="nav-link  fw-bold fs-5 text-dark" href="../index.html">Home</a>
+            <a class="nav-link  fw-bold fs-5 text-dark" href="../index.html ">Home</a>
         </li>
 
         <li class="nav-item px-3">
@@ -56,14 +56,14 @@ header.innerHTML = `
     </div>
 
 </div>  
-</nav>
+</nav>  
 
 `
 var footer = document.getElementById("footer");
 footer.innerHTML = `
 <div class="row mt-5 px-5 font-amazon">
                 <div class="col-12 mb-3 col-sm-12 col-md-3 ">
-                    <a class="navbar-brand px-3 w-25" href="../index.html">
+                    <a class="navbar-brand px-3 w-25" href="./index.html">
                     <img src="../img/logodemo.png" width="100%">
                     </a>
                     <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores impedit maxime omnis explicabo fuga ab?</p>

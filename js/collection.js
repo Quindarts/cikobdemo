@@ -146,7 +146,7 @@ Listshow_product.forEach(product =>{
 product.addEventListener('click', ()=>{
     let getParent = product.parentElement.parentElement;
     let getid = getParent.id;
-    product.href = `../html/productItem.html?id=${getid}`;
+    product.href = `./html/productItem.html?id=${getid}`;
 })
 
 });
